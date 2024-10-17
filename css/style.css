@@ -1,0 +1,175 @@
+:root {
+    --primary: #b88e2f;
+    --secondary: #000;
+    --font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.container {
+    max-width: 1240px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+.btn-primary {
+    background: var(--primary);
+    padding: 12px 36px;
+    display: inline-block;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+
+nav .menu {
+    width: 50%;
+    text-align: center;
+}
+
+nav .logo {
+    width: 20%;
+}
+
+nav .quickmenu {
+    width: 30%;
+    text-align: right;
+}
+
+nav .menu ul {
+    justify-content: center;
+}
+
+nav .menu ul li a {
+    padding: 38px 37.5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    display: block;
+}
+
+nav .row {
+    align-items: center;
+}
+
+nav .quickmenu a {
+    color: #000;
+    font-size: 23px;
+    margin: 0 22.5px;
+    display: inline-block;
+}
+
+#banner {
+    background-image: url(../Pictures/banner.png);
+    height: 716px;
+    background-size: cover;
+    position: relative;
+}
+
+.bannercnt {
+    background-color: #FFF3E3;
+    border-radius: 10px;
+    width: 643px;
+    padding: 62px 40px 37px;
+    position: absolute;
+    top: 157px;
+    right: 58px;
+}
+
+.bannercnt h5 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.19em;
+    color: #333;
+}
+
+.bannercnt h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 125%;
+    color: var(--primary);
+    margin: 4px 0 17px;
+}
+
+.bannercnt p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    color: #333;
+    margin-bottom: 46px;
+}
+
+.bannercnt a {
+    padding: 25px 72px;
+}
+
+.text {
+    /* margin: 52.17px; */
+    text-align: center;
+
+}
+
+.text h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 32px;
+    color: #333;
+
+}
+
+.text p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #666;
+    margin-bottom: 62.29px;
+}
+
+#categories {
+    padding: 56px 0;
+}
+
+.categorycard {
+    width: calc(33.33% - 20px);
+    margin: 0 10px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.categorycard a {
+    color: #333;
+}
+
+#text {
+    margin-top: 30px;
+}
